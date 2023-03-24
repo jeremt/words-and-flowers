@@ -28,24 +28,6 @@ h1 {
     font-weight: normal;
 }
 
-button {
-    cursor: pointer;
-    font-family: 'Nunito', sans-serif;
-    font-weight: bold;
-    background-color: #8CC63E;
-    box-shadow: 0 5px 0 #628f28;
-    padding: 10px;
-    border-radius: 10px;
-    border: none;
-    transition: all .2s;
-    outline: none;
-}
-
-button:active {
-    transform: translateY(3px);
-    box-shadow: 0 2px 0 #628f28;
-}
-
 /* content */
 
 #instructions {
@@ -81,4 +63,35 @@ button:active {
     color: #aaaaaa;
     font-size: 1.2rem;
     height: 50px;
+}
+
+/* box */
+
+#box {
+    color: #222222;
+    display: flex;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+#newGame {
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    background-color: #8CC63E;
+    box-shadow: 0 5px 0 #628f28;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    transition: all .2s;
+    outline: none;
+    margin-left: 20px;
+}
+
+#newGame:active {
+    transform: translateY(3px);
+    box-shadow: 0 2px 0 #628f28;
 }
